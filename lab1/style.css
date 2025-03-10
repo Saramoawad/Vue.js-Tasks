@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.card {
+    transition: transform 0.3s;
+    border: none !important;
+    height: 530px;
+}
+.card img{
+    height: 200px;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.less {
+    border: 2px solid green;
+    background-color: #d4edda;
+}
+.more {
+    border: 2px solid red;
+    background-color: #f8d7da;
+}
